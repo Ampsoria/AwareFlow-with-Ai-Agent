@@ -1,0 +1,38 @@
+[theme]
+base = "light"
+primaryColor = "#CF000D"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F6"
+textColor = "#202124"
+font = "Noto Sans Thai"
+headingFont = "Noto Sans Thai"
+headingFontSizes = ["2rem", "1.5rem", "1.125rem"]
+headingFontWeights = [600, 600, 600]
+baseRadius = "6px"
+buttonRadius = "6px"
+borderColor = "#E2E3E6"
+showWidgetBorder = true
+chartCategoricalColors = ["#CF000D", "#44474F", "#9A9CA3", "#E8A5AA"]
+
+[[theme.fontFaces]]
+family = "Noto Sans Thai"
+url = "app/static/fonts/NotoSansThai-Variable.woff2"
+weight = "100 900"
+style = "normal"
+
+[theme.sidebar]
+backgroundColor = "#F8F8F9"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#202124"
+primaryColor = "#CF000D"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+address = "127.0.0.1"
+enableStaticServing = true
+
+[client]
+showErrorDetails = false
